@@ -41,4 +41,8 @@ object {
 .p-header {
   display: flex;
 }
+.p-header__title {
+  font-size: 6.4rem;
+  color: #3C2A10;
+}
 /*# sourceMappingURL=style.css.map */
