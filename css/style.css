@@ -40,9 +40,18 @@ object {
 
 .p-header {
   display: flex;
+  background-color: #FFF7EF;
 }
 .p-header__title {
   font-size: 6.4rem;
-  color: #3C2A10;
+  color: #707070;
+}
+
+.p-sidebar {
+  background-color: #F2EDE9;
+}
+
+.p-footer {
+  background-image: url(../../../images/bg-footer.png);
 }
 /*# sourceMappingURL=style.css.map */

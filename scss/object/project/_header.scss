@@ -3,10 +3,10 @@
 
 .p-header {
   display: flex;
-
+  background-color: v.$bgcolor-header;
   // タイトル部分
   &__title {
     font-size: 6.4rem;
-    color: v.$color-brown;
+    color: v.$color-grey;
   }
 }
