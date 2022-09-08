@@ -1,0 +1,13 @@
+.c-text {
+  &__font01 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  &__font02 {
+    font-family: 'M PLUS 1p', sans-serif;
+    &--bold {
+      font-family: 'M PLUS 1p', sans-serif;
+      font-weight: bold;
+    }
+  }
+}

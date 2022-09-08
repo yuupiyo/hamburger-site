@@ -26,4 +26,15 @@ object {
   height: auto;
   vertical-align: middle;
 }
+
+.c-text__font01 {
+  font-family: "Roboto", sans-serif;
+}
+.c-text__font02 {
+  font-family: "M PLUS 1p", sans-serif;
+}
+.c-text__font02--bold {
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
