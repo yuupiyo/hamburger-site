@@ -37,4 +37,8 @@ object {
   font-family: "M PLUS 1p", sans-serif;
   font-weight: bold;
 }
+
+.p-header {
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
