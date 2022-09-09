@@ -79,8 +79,17 @@ object {
   background-color: #FFF7EF;
 }
 .p-header__title {
-  font-size: 6.4rem;
   color: #707070;
+}
+@media screen and (min-width: 1025px) {
+  .p-header__title {
+    font-size: 6.4rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-header__button {
+    display: none;
+  }
 }
 
 .p-sidebar {

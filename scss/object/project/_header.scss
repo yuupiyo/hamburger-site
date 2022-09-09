@@ -4,9 +4,19 @@
 .p-header {
   display: flex;
   background-color: v.$bgcolor-header;
+
   // タイトル部分
-  &__title {
-    font-size: 6.4rem;
+  &__title {   
     color: v.$color-grey;
+    @include m.pc {
+      font-size: 6.4rem;
+    }
+  }
+
+  // Menuボタン部分
+  &__button {
+    @include m.pc {
+      display: none;
+    }
   }
 }
