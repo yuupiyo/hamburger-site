@@ -27,6 +27,42 @@ object {
   vertical-align: middle;
 }
 
+@media screen and (min-width: 1025px) {
+  .l-grid {
+    display: grid;
+    grid-template-columns: 1fr 19%;
+    grid-template-rows: 21.7rem 1fr 15rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .l-header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .l-article {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .l-footer {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .l-sidebar {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+}
+
 .c-text__font01 {
   font-family: "Roboto", sans-serif;
 }
