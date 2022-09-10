@@ -8,6 +8,9 @@
     border: 1px solid v.$color-grey;
     border-radius: 1rem;
     background-color: v.$color-white;
+    &:focus {
+      outline: none;
+    }
     @include m.tablet {
       width: 39.6rem;        
     }

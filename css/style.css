@@ -139,6 +139,25 @@ object {
 
 .p-footer {
   background-image: url(../../../images/bg-footer.png);
+  text-align: center;
+  color: #ffffff;
+  padding: 4rem 0 2.9rem;
+}
+.p-footer__menu {
+  display: flex;
+  justify-content: center;
+}
+.p-footer__menu-item {
+  font-size: 2rem;
+  padding: 0 1.4rem;
+  border-right: 0.1rem solid #ffffff;
+}
+.p-footer__menu-item:last-of-type {
+  border-right: none;
+}
+.p-footer__copyright {
+  font-size: 1.4rem;
+  margin-top: 3.4rem;
 }
 
 .p-search__input {
@@ -146,6 +165,9 @@ object {
   border: 1px solid #707070;
   border-radius: 1rem;
   background-color: #ffffff;
+}
+.p-search__input:focus {
+  outline: none;
 }
 @media screen and (min-width: 600px) {
   .p-search__input {
