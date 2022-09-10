@@ -1,0 +1,21 @@
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+.p-mainvisual {
+  position: relative;
+  @include m.pc {
+    height: 53rem;
+    background: url(../../../images/bg-front-main.jpg) no-repeat right center/cover;
+    object-fit: cover;
+  }
+
+  &__title {
+    color: v.$color-white;
+    position: absolute;
+    @include m.pc {
+      font-size: 4rem;
+      top: 23.1rem;
+      left: 8.6rem;
+    }
+  }
+}
