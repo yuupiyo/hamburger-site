@@ -99,4 +99,30 @@ object {
 .p-footer {
   background-image: url(../../../images/bg-footer.png);
 }
+
+.p-search__input {
+  height: 4.6rem;
+  border: 1px solid #707070;
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
+@media screen and (min-width: 600px) {
+  .p-search__input {
+    width: 39.6rem;
+  }
+}
+.p-search__button {
+  height: 4.6rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #707070;
+  border: 1px solid #707070;
+  border-radius: 1rem;
+  background-color: #F2EDE9;
+}
+@media screen and (min-width: 600px) {
+  .p-search__button {
+    width: 13.6rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
