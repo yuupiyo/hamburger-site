@@ -3,7 +3,12 @@
 
 .p-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: v.$bgcolor-header;
+  @include m.pc {
+    padding: 0 3.1rem 0 6.5rem;
+  }
 
   // タイトル部分
   &__title {   
