@@ -1,0 +1,75 @@
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+.p-brunch-menu {
+  @include m.tablet {
+    display: flex;
+  }
+  @include m.pc {
+    padding: 12rem 11.2rem 13.1rem 11.1rem;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include m.pc {
+      min-height: 119.3rem;
+    }
+    &:first-child {
+      background: url(../../../images/bg-takeout.jpg) no-repeat center center/cover;
+    }
+    &:nth-child(2) {
+      background: url(../../../images/bg-eatin.jpg) no-repeat center center/cover;
+      @include m.pc {
+        margin-left: 8rem;
+      }
+    }   
+  }
+
+  &__title {
+    font-size: 4.1rem;
+    line-height: 1.3;
+    color: v.$color-lightgrey;
+    @include m.tablet {
+      font-size: 4.4rem;
+    }
+    @include m.pc {
+      font-size: 8rem;
+    }
+    &:first-child {
+      @include m.pc {
+        margin: 2rem 0 3.45rem 1.9rem;
+      }
+    }
+    &:nth-child(2) {
+      @include m.pc {
+        margin: 2.2rem 0 3.05rem 2.2rem;
+      }
+    }
+  }
+
+  &__text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    @include m.pc {
+      margin: 0 2rem 2rem 2rem;
+      padding: 1.2rem 2.1rem 2rem 2rem;
+    }
+  }
+
+  &__sub-title {
+    font-size: 2.2rem;
+    color: v.$color-brown;
+    margin-bottom: 0.9rem;
+    @include m.tablet {
+      font-size: 2.4rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: v.$color-brown;
+  }
+}
