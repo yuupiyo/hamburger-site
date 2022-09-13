@@ -227,6 +227,7 @@ object {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__list {
@@ -243,6 +244,13 @@ object {
   .p-brunch-menu__list:nth-child(2) {
     margin-left: 8rem;
   }
+}
+.p-brunch-menu__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .p-brunch-menu__title {
   font-size: 4.1rem;
