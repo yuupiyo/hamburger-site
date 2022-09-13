@@ -4,9 +4,10 @@
 .p-brunch-menu {
   @include m.tablet {
     display: flex;
+    margin: 0 auto;
   }
   @include m.pc {
-    padding: 12rem 11.2rem 13.1rem 11.1rem;
+    padding: 7.5rem 7rem 8rem;
   }
 
   &__list {
