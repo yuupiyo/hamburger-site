@@ -1,0 +1,62 @@
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+.p-access {
+  width: 100%;
+  background: url(../../../images/bg-map.png) no-repeat left center / cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  @include m.pc {
+    min-height: 64.9rem;
+    padding: 8.3rem 0 4rem 11.9rem;
+  }
+
+  &__title {
+    line-height: 1.5;
+    color: v.$color-white;
+    position: relative;
+    z-index: 1;
+    @include m.pc {
+      font-size: 3.6rem;
+      margin-bottom: 11.9rem;
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      width: 7.5rem;
+      height: 0.2rem;
+      display: inline-block;
+      background-color: v.$color-white;
+      position: absolute;
+      left: 0;
+      @include m.pc {
+        bottom: -5.5rem;
+      }
+    }
+  }
+
+  &__text {
+    line-height: 2;
+    color: v.$color-white;
+    position: relative;
+    z-index: 1;
+    @include m.pc {
+      font-size: 1.6rem;
+      width: 44%;
+    }
+  }
+
+  &__layer {
+    background-color: rgba(0, 0, 0, 0.29);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include m.tablet {
+      height: 100%;
+    }
+    @include m.pc {
+      width: 61%;
+    }
+  }
+}

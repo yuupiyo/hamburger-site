@@ -323,4 +323,73 @@ object {
   line-height: 1.4;
   color: #3C2A10;
 }
+
+.p-access {
+  width: 100%;
+  background: url(../../../images/bg-map.png) no-repeat left center/cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+@media screen and (min-width: 1025px) {
+  .p-access {
+    min-height: 64.9rem;
+    padding: 8.3rem 0 4rem 11.9rem;
+  }
+}
+.p-access__title {
+  line-height: 1.5;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (min-width: 1025px) {
+  .p-access__title {
+    font-size: 3.6rem;
+    margin-bottom: 11.9rem;
+  }
+}
+.p-access__title::after {
+  position: absolute;
+  content: "";
+  width: 7.5rem;
+  height: 0.2rem;
+  display: inline-block;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+}
+@media screen and (min-width: 1025px) {
+  .p-access__title::after {
+    bottom: -5.5rem;
+  }
+}
+.p-access__text {
+  line-height: 2;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (min-width: 1025px) {
+  .p-access__text {
+    font-size: 1.6rem;
+    width: 44%;
+  }
+}
+.p-access__layer {
+  background-color: rgba(0, 0, 0, 0.29);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (min-width: 600px) {
+  .p-access__layer {
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-access__layer {
+    width: 61%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
