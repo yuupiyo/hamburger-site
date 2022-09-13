@@ -160,11 +160,27 @@ object {
   margin-top: 3.4rem;
 }
 
+.p-search {
+  display: inline-block;
+  position: relative;
+}
+.p-search::before {
+  content: "";
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url(../../../images/search-icon.png) no-repeat center center/auto 100%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1.2rem;
+}
 .p-search__input {
   height: 4.6rem;
   border: 1px solid #707070;
   border-radius: 1rem;
   background-color: #ffffff;
+  padding-left: 4rem;
 }
 .p-search__input:focus {
   outline: none;

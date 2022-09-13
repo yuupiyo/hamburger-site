@@ -2,12 +2,29 @@
 @use "../../foundation/variable" as v;
 
 .p-search {
+  display: inline-block;
+  position: relative;
+
+  // 虫眼鏡の部分
+  &::before {
+    content: '';
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url(../../../images/search-icon.png) no-repeat center center/ auto 100%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.2rem;
+  }
+
   // 検索窓部分
   &__input {
     height: 4.6rem;
     border: 1px solid v.$color-grey;
     border-radius: 1rem;
     background-color: v.$color-white;
+    padding-left: 4rem;
     &:focus {
       outline: none;
     }
