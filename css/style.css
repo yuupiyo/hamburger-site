@@ -240,11 +240,6 @@ object {
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 1025px) {
-  .p-brunch-menu {
-    padding: 7.5rem 6.9rem 8rem 6.9rem;
-  }
-}
 .p-brunch-menu__list {
   display: flex;
   flex-direction: column;
@@ -253,11 +248,12 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__list {
-    min-width: 39rem;
     min-height: 74.5rem;
+    margin: 7.5rem 6.9rem 8rem 6.9rem;
   }
 }
 .p-brunch-menu__list:first-child {
+  width: 46%;
   background: url(../../../images/bg-takeout.jpg) no-repeat center center/cover;
 }
 .p-brunch-menu__list:nth-child(2) {
@@ -265,6 +261,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__list:nth-child(2) {
+    width: 46%;
     margin-left: 5rem;
   }
 }

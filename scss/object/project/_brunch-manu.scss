@@ -7,9 +7,6 @@
     display: flex;
     margin: 0 auto;
   }
-  @include m.pc {
-    padding: 7.5rem 6.9rem 8rem 6.9rem;
-  }
 
   &__list {
     display: flex;
@@ -17,15 +14,17 @@
     justify-content: space-between;
     position: relative;
     @include m.pc {
-      min-width: 39rem;
       min-height: 74.5rem;
+      margin: 7.5rem 6.9rem 8rem 6.9rem;
     }
     &:first-child {
+      width: 46%;
       background: url(../../../images/bg-takeout.jpg) no-repeat center center/cover;
     }
     &:nth-child(2) {
       background: url(../../../images/bg-eatin.jpg) no-repeat center center/cover;
       @include m.pc {
+        width: 46%;
         margin-left: 5rem;
       }
     }   
