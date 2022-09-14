@@ -22,8 +22,8 @@
 
   // 検索窓部分
   &__input {
-    border: 0.6px solid v.$color-grey;
-    border-radius: 6px;
+    border: 0.06rem solid v.$color-grey;
+    border-radius: 0.6rem;
     background-color: v.$color-white;
     padding-left: 2.5rem;
     height: 2.9rem;
@@ -40,8 +40,8 @@
     font-size: 0.1rem;
     text-align: center;
     color: v.$color-grey;
-    border: 0.6px solid v.$color-grey;
-    border-radius: 6px;
+    border: 0.06rem solid v.$color-grey;
+    border-radius: 0.6rem;
     background-color: v.$bgcolor-sidebar;
     height: 2.9rem;
     @include m.tablet {
