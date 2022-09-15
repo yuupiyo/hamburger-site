@@ -9,7 +9,7 @@
 // =========================================
 // layout
 // =========================================
-@use "./layout/grid";
+@use "./layout/l-header";
 
 // =========================================
 // object
@@ -17,6 +17,7 @@
 // =============================
 // Component
 // =============================
+@use "./object/component/grid";
 @use "./object/component/text";
 @use "./object/component/nav";
 

@@ -1,6 +1,6 @@
-@use "../foundation/mixin" as m;
+@use "../../foundation/mixin" as m;
 
-.l-grid {
+.c-grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 21.7rem 1fr 15rem;
