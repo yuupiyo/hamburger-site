@@ -3,9 +3,10 @@
 .l-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 13.6rem 1fr 9.4rem;
+  grid-template-rows: 21.7rem 1fr 15rem;
   @include m.pc {  
     grid-template-columns: 1fr 19%; 
+    grid-template-rows: 13.6rem 1fr 9.4rem;
   }
   &__header {
     @include m.pc {
