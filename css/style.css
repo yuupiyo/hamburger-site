@@ -34,30 +34,26 @@ object {
     grid-template-rows: 13.6rem 1fr 9.4rem;
   }
 }
-
 @media screen and (min-width: 1025px) {
-  .l-header {
+  .l-grid__header {
     grid-column: 1/2;
     grid-row: 1/2;
   }
 }
-
 @media screen and (min-width: 1025px) {
-  .l-article {
+  .l-grid__article {
     grid-column: 1/2;
     grid-row: 2/3;
   }
 }
-
 @media screen and (min-width: 1025px) {
-  .l-footer {
+  .l-grid__footer {
     grid-column: 1/3;
     grid-row: 3/4;
   }
 }
-
 @media screen and (min-width: 1025px) {
-  .l-sidebar {
+  .l-grid__sidebar {
     grid-column: 2/3;
     grid-row: 1/3;
   }

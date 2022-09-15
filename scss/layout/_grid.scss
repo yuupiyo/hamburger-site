@@ -6,32 +6,35 @@
     grid-template-columns: 1fr 19%;
     grid-template-rows: 13.6rem 1fr 9.4rem;
   }
-}
-
-.l-header {
-  @include m.pc {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+  &__header {
+    @include m.pc {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+  }
+  &__article {
+    @include m.pc {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+  }
+  &__footer {
+    @include m.pc {
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+    }
+  }
+  &__sidebar {
+    @include m.pc {
+      grid-column: 2 / 3;
+      grid-row: 1 / 3;
+    }
   }
 }
 
-.l-article {
-  @include m.pc {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-  }
-}
 
-.l-footer {
-  @include m.pc {
-    grid-column: 1 / 3;
-    grid-row: 3 / 4;
-  }
-}
 
-.l-sidebar {
-  @include m.pc {
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-  }
-}
+
+
+
+
