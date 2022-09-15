@@ -27,11 +27,14 @@ object {
   vertical-align: middle;
 }
 
+.l-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 13.6rem 1fr 9.4rem;
+}
 @media screen and (min-width: 1025px) {
   .l-grid {
-    display: grid;
     grid-template-columns: 1fr 19%;
-    grid-template-rows: 13.6rem 1fr 9.4rem;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -45,6 +48,9 @@ object {
     grid-column: 1/2;
     grid-row: 2/3;
   }
+}
+.l-grid__footer {
+  grid-column: 1/2;
 }
 @media screen and (min-width: 1025px) {
   .l-grid__footer {
