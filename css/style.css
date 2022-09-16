@@ -31,6 +31,7 @@ object {
   display: flex;
   align-items: center;
   background-color: #FFF7EF;
+  position: relative;
 }
 @media screen and (min-width: 1025px) {
   .l-header {
@@ -75,17 +76,13 @@ object {
     grid-template-rows: 13.6rem 1fr 9.4rem;
   }
 }
-@media screen and (min-width: 1025px) {
-  .c-grid__header {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
+.c-grid__header {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
-@media screen and (min-width: 1025px) {
-  .c-grid__article {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
+.c-grid__article {
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 .c-grid__footer {
   grid-column: 1/2;
