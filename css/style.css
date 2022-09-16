@@ -30,13 +30,15 @@ object {
 .l-header {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   background-color: #FFF7EF;
   position: relative;
+  padding: 4rem 0;
 }
 @media screen and (min-width: 1025px) {
   .l-header {
-    justify-content: space-between;
+    flex-direction: row;
     padding: 0 2rem 0 4.1rem;
   }
 }
@@ -251,12 +253,14 @@ object {
   height: 4.6rem;
   font-size: 1.6rem;
   line-height: 1.4;
+  margin-left: 1.4rem;
 }
 @media screen and (min-width: 1025px) {
   .p-search__button {
     width: 8.5rem;
     height: 2.9rem;
     font-size: 0.1rem;
+    margin-left: 0.8rem;
   }
 }
 
