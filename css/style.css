@@ -29,6 +29,7 @@ object {
 
 .l-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: #FFF7EF;
   position: relative;
@@ -56,8 +57,14 @@ object {
 }
 
 .c-border {
-  border: 0.06rem solid #707070;
-  border-radius: 0.6rem;
+  border: 0.1rem solid #707070;
+  border-radius: 1rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-border {
+    border: 0.06rem solid #707070;
+    border-radius: 0.6rem;
+  }
 }
 
 .c-button {
@@ -206,36 +213,50 @@ object {
 }
 .p-search::before {
   content: "";
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.4rem;
+  height: 2.4rem;
   background: url(../../../images/search-icon.png) no-repeat center center/auto 100%;
   display: inline-block;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 0.5rem;
+  left: 1.2rem;
   color: #808080;
 }
+@media screen and (min-width: 1025px) {
+  .p-search::before {
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 0.5rem;
+  }
+}
 .p-search__input {
+  width: 39.6rem;
+  height: 4.6rem;
   background-color: #ffffff;
-  padding-left: 2.5rem;
-  height: 2.9rem;
+  padding-left: 4rem;
 }
 .p-search__input:focus {
   outline: none;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1025px) {
   .p-search__input {
     width: 24.8rem;
+    height: 2.9rem;
+    padding-left: 2.5rem;
   }
 }
 .p-search__button {
-  font-size: 0.1rem;
-  height: 2.9rem;
+  width: 13.6rem;
+  height: 4.6rem;
+  font-size: 1.6rem;
+  line-height: 1.4;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1025px) {
   .p-search__button {
     width: 8.5rem;
+    height: 2.9rem;
+    font-size: 0.1rem;
   }
 }
 

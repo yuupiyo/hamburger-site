@@ -3,6 +3,7 @@
 
 .l-header {
   display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: v.$bgcolor-header;
   position: relative;
