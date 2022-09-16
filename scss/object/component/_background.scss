@@ -1,4 +1,16 @@
 @use "../../foundation/mixin" as m;
 @use "../../foundation/variable" as v;
 
-// backgroud-color
+// 背景画像
+.c-background {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  // front-pageのmainvisual
+  &__main {
+    @extend .c-background;
+    background-image: url(../../../images/bg-front-main.jpg);
+  }
+
+}

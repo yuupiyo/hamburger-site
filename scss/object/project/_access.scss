@@ -13,7 +13,6 @@
 
   &__title {
     line-height: 1.5;
-    color: v.$color-white;
     position: relative;
     z-index: 1;
     @include m.pc {
@@ -37,7 +36,6 @@
 
   &__text {
     line-height: 2;
-    color: v.$color-white;
     position: relative;
     z-index: 1;
     @include m.pc {

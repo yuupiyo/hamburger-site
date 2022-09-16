@@ -2,11 +2,7 @@
 @use "../../foundation/variable" as v;
 
 .p-footer {
-  background-image: url(../../../images/bg-footer.png);
-  text-align: center;
-  color: v.$color-white;
-  padding: 2.5rem 0 1.8rem;
-
+  width: 100%;
   // リスト部分
   &__menu {
     display: flex;

@@ -1,0 +1,8 @@
+@use "../foundation/mixin" as m;
+@use "../foundation/variable" as v;
+
+.l-footer {
+  background-image: url(../../../images/bg-footer.png);
+  text-align: center;
+  padding: 2.5rem 0 1.8rem;
+}
