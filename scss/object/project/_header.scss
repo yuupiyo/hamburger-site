@@ -13,6 +13,10 @@
   // Menuボタン部分
   &__button {
     font-size: 3.4rem;
+    line-height: 1.3;
+    position: absolute;
+    top: 1.8rem;
+    right: 2.6rem;
     @include m.pc {
       display: none;
     }
