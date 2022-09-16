@@ -2,11 +2,9 @@
 @use "../foundation/variable" as v;
 
 .l-header {
-  width: 100%;
   display: flex;
   align-items: center;
   background-color: v.$bgcolor-header;
-  position: relative;
   @include m.pc {   
     justify-content: space-between; 
     padding: 0 2rem 0 4.1rem;

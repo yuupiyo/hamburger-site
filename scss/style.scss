@@ -17,6 +17,9 @@
 // =============================
 // Component
 // =============================
+@use "./object/component/background";
+@use "./object/component/border";
+@use "./object/component/button";
 @use "./object/component/grid";
 @use "./object/component/text";
 @use "./object/component/nav";

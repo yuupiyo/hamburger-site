@@ -1,0 +1,7 @@
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+.c-button {
+  text-align: center;
+  background: linear-gradient(0deg, #DED8D3, #F2EDE9);
+}

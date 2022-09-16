@@ -6,14 +6,12 @@
 
   // タイトル部分
   &__title {   
-    color: v.$color-grey;
     line-height: 1.3;
     font-size: 4rem;
   }
 
   // Menuボタン部分
   &__button {
-    color: v.$color-grey;
     font-size: 3.4rem;
     @include m.pc {
       display: none;

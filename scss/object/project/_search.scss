@@ -5,7 +5,6 @@
   display: inline-block;
   position: relative;
   
-
   // 虫眼鏡の部分
   &::before {
     content: '';
@@ -22,8 +21,6 @@
 
   // 検索窓部分
   &__input {
-    border: 0.06rem solid v.$color-grey;
-    border-radius: 0.6rem;
     background-color: v.$color-white;
     padding-left: 2.5rem;
     height: 2.9rem;
@@ -38,11 +35,8 @@
   // 検索ボタン部分
   &__button {
     font-size: 0.1rem;
-    text-align: center;
-    color: v.$color-grey;
-    border: 0.06rem solid v.$color-grey;
-    border-radius: 0.6rem;
-    background-color: v.$bgcolor-grey;
+    // text-align: center;
+    // background: linear-gradient(0deg, #DED8D3, #F2EDE9);
     height: 2.9rem;
     @include m.tablet {
       width: 8.5rem;
