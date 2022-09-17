@@ -403,6 +403,7 @@ object {
 
 .p-access {
   width: 100%;
+  padding: 4rem 0 4rem 4.2rem;
   background: url(../../../images/bg-map.png) no-repeat center center/cover;
   background-color: rgba(0, 0, 0, 0.6);
   position: relative;
@@ -414,6 +415,8 @@ object {
   }
 }
 .p-access__title {
+  font-size: 3rem;
+  margin-bottom: 4rem;
   line-height: 1.5;
   position: relative;
   z-index: 1;
@@ -427,26 +430,31 @@ object {
 .p-access__title::after {
   position: absolute;
   content: "";
-  width: 4.6rem;
+  width: 7.5rem;
   height: 0.2rem;
   display: inline-block;
   background-color: #ffffff;
   position: absolute;
   left: 0;
+  bottom: -2rem;
 }
 @media screen and (min-width: 1025px) {
   .p-access__title::after {
+    width: 4.6rem;
     bottom: -3.4rem;
   }
 }
 .p-access__text {
-  line-height: 2;
+  width: 97%;
+  font-size: 1.4rem;
+  line-height: 2.35;
   position: relative;
   z-index: 1;
 }
 @media screen and (min-width: 1025px) {
   .p-access__text {
     font-size: 1rem;
+    line-height: 2;
     width: 44%;
   }
 }
