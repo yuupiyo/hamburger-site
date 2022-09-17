@@ -298,6 +298,9 @@ object {
   }
 }
 .p-brunch-menu__list {
+  width: 47%;
+  min-height: 68.1rem;
+  margin: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -305,21 +308,21 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__list {
+    width: 46%;
     min-height: 74.5rem;
     margin: 7.5rem 6.9rem 8rem 6.9rem;
   }
 }
 .p-brunch-menu__list:first-child {
-  width: 46%;
   color: #EAEAEA;
   background: url(../../../images/bg-takeout.jpg) no-repeat center center/cover;
 }
 .p-brunch-menu__list:nth-child(2) {
   background: url(../../../images/bg-eatin.jpg) no-repeat center center/cover;
+  margin-left: 4.1rem;
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__list:nth-child(2) {
-    width: 46%;
     margin-left: 5rem;
   }
 }
@@ -340,6 +343,7 @@ object {
 @media screen and (min-width: 600px) {
   .p-brunch-menu__title {
     font-size: 4.4rem;
+    margin: 1.2rem 0 0 1.1rem;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -350,10 +354,12 @@ object {
 }
 .p-brunch-menu__title::after {
   content: "";
+  width: 3.6rem;
   height: 0.4rem;
   display: inline-block;
   background-color: #ffffff;
   position: absolute;
+  bottom: -2.16rem;
   left: 0;
 }
 @media screen and (min-width: 1025px) {
@@ -363,6 +369,9 @@ object {
   }
 }
 .p-brunch-menu__text-box {
+  min-height: 13.8rem;
+  margin: 0 1.5rem 1.5rem;
+  padding: 0.7rem 1.5rem 1.5rem;
   background-color: rgba(255, 255, 255, 0.8);
 }
 @media screen and (min-width: 1025px) {
@@ -373,17 +382,23 @@ object {
   }
 }
 .p-brunch-menu__sub-title {
-  font-size: 2.2rem;
-  margin-bottom: 0.9rem;
+  font-size: 2.4rem;
+  margin-bottom: 0.3rem;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1025px) {
   .p-brunch-menu__sub-title {
     font-size: 1.5rem;
+    margin-bottom: 0.9rem;
   }
 }
 .p-brunch-menu__text {
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 1.4;
+}
+@media screen and (min-width: 1025px) {
+  .p-brunch-menu__text {
+    font-size: 1rem;
+  }
 }
 
 .p-access {
