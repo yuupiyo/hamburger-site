@@ -5,20 +5,21 @@
   width: 100%;
   @include m.tablet {
     display: flex;
+    padding: 4rem;
+  }
+  @include m.pc {
+    padding: 7.5rem 6.9rem 8rem 6.9rem;
   }
 
   &__list {
     width: 47%;
     min-height: 68.1rem;
-    margin: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
     @include m.pc {
-      width: 46%;
       min-height: 74.5rem;
-      margin: 7.5rem 6.9rem 8rem 6.9rem;
     }
     &:first-child { 
       color: v.$color-lightgrey;
@@ -26,10 +27,7 @@
     }
     &:nth-child(2) {
       background: url(../../../images/bg-eatin.jpg) no-repeat center center/cover;
-      margin-left: 4.1rem;
-      @include m.pc {
-        margin-left: 5rem;
-      }
+      margin-left: 6%;
     }   
   }
 

@@ -311,12 +311,17 @@ object {
 @media screen and (min-width: 600px) {
   .p-brunch-menu {
     display: flex;
+    padding: 4rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-brunch-menu {
+    padding: 7.5rem 6.9rem 8rem 6.9rem;
   }
 }
 .p-brunch-menu__list {
   width: 47%;
   min-height: 68.1rem;
-  margin: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -324,9 +329,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__list {
-    width: 46%;
     min-height: 74.5rem;
-    margin: 7.5rem 6.9rem 8rem 6.9rem;
   }
 }
 .p-brunch-menu__list:first-child {
@@ -335,12 +338,7 @@ object {
 }
 .p-brunch-menu__list:nth-child(2) {
   background: url(../../../images/bg-eatin.jpg) no-repeat center center/cover;
-  margin-left: 4.1rem;
-}
-@media screen and (min-width: 1025px) {
-  .p-brunch-menu__list:nth-child(2) {
-    margin-left: 5rem;
-  }
+  margin-left: 6%;
 }
 .p-brunch-menu__link {
   display: block;
