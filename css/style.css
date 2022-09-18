@@ -136,18 +136,36 @@ object {
 }
 
 .c-nav__list {
-  margin-bottom: 3rem;
+  margin-bottom: 4.3rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-nav__list {
+    margin-bottom: 3rem;
+  }
 }
 .c-nav__title {
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   line-height: 1.5;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-nav__title {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
 }
 .c-nav__list-item {
-  font-size: 1.3rem;
+  font-size: 2rem;
   line-height: 1.45;
-  margin-bottom: 1.4rem;
-  margin-left: 1.3rem;
+  margin-bottom: 2.3rem;
+  margin-left: 2rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-nav__list-item {
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+    margin-left: 1.3rem;
+  }
 }
 
 .p-header {
@@ -171,12 +189,15 @@ object {
 }
 
 .p-sidebar {
-  width: 100%;
+  width: 44%;
+  height: 100%;
   background-color: #F2EDE9;
-  padding-left: 2.8rem;
+  padding-top: 21.2rem;
+  padding-left: 4.6rem;
 }
 @media screen and (min-width: 1025px) {
   .p-sidebar {
+    width: 100%;
     padding-top: 5.1rem;
   }
 }
