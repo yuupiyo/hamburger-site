@@ -10,7 +10,9 @@
   // front-pageのmainvisual
   &__main {
     @extend .c-background;
-    background-image: url(../../../images/bg-front-main.jpg);
+    background-image: url(../../../images/bg-front-main-sp.jpg);
+    @include m.tablet {
+      background-image: url(../../../images/bg-front-main.jpg);
+    }
   }
-
 }

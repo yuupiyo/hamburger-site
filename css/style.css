@@ -60,7 +60,12 @@ object {
   background-size: cover;
 }
 .c-background__main {
-  background-image: url(../../../images/bg-front-main.jpg);
+  background-image: url(../../../images/bg-front-main-sp.jpg);
+}
+@media screen and (min-width: 600px) {
+  .c-background__main {
+    background-image: url(../../../images/bg-front-main.jpg);
+  }
 }
 
 .c-border {
@@ -334,7 +339,12 @@ object {
   line-height: 1.5;
   position: absolute;
   top: 11.9rem;
-  left: 8.6rem;
+  left: 2.5rem;
+}
+@media screen and (min-width: 600px) {
+  .p-mainvisual__title {
+    left: 8.6rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-mainvisual__title {
