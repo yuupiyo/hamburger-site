@@ -46,7 +46,12 @@ object {
 .l-footer {
   background-image: url(../../../images/bg-footer.png);
   text-align: center;
-  padding: 4rem 0 2.9rem;
+  padding: 4rem 0 3.1rem;
+}
+@media screen and (min-width: 600px) {
+  .l-footer {
+    padding: 4rem 0 2.9rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .l-footer {
