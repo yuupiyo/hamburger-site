@@ -206,11 +206,16 @@ object {
 }
 
 .p-sidebar {
-  width: 44%;
+  width: 87.4%;
   height: 100%;
   background-color: #F2EDE9;
   padding-top: 21.2rem;
   padding-left: 4.6rem;
+}
+@media screen and (min-width: 600px) {
+  .p-sidebar {
+    width: 44%;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-sidebar {
