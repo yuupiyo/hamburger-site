@@ -506,10 +506,20 @@ object {
 
 .p-access {
   width: 100%;
-  padding: 4rem 0 4rem 4.2rem;
-  background: url(../../../images/bg-map.png) no-repeat center center/cover;
+  min-height: 69.1rem;
+  padding: 4rem 4rem 5.1rem;
+  background-image: url(../../../images/bg-map-sp.png);
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.6);
   position: relative;
+}
+@media screen and (min-width: 600px) {
+  .p-access {
+    min-height: 41.5rem;
+    padding: 4rem 0 4rem 4.2rem;
+    background-image: url(../../../images/bg-map.png);
+    background-size: cover;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-access {
@@ -548,11 +558,16 @@ object {
   }
 }
 .p-access__text {
-  width: 97%;
+  width: 100%;
   font-size: 1.4rem;
   line-height: 2.35;
   position: relative;
   z-index: 1;
+}
+@media screen and (min-width: 600px) {
+  .p-access__text {
+    width: 97%;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-access__text {
@@ -564,6 +579,7 @@ object {
 .p-access__layer {
   background-color: rgba(0, 0, 0, 0.29);
   width: 100%;
+  height: 60%;
   position: absolute;
   top: 0;
   left: 0;
