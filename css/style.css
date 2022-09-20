@@ -356,10 +356,13 @@ object {
 
 .p-brunch-menu {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 4.9rem;
 }
 @media screen and (min-width: 600px) {
   .p-brunch-menu {
-    display: flex;
+    flex-direction: row;
     padding: 4rem;
   }
 }
@@ -369,12 +372,18 @@ object {
   }
 }
 .p-brunch-menu__list {
-  width: 47%;
-  min-height: 68.1rem;
+  width: 100%;
+  min-height: 64.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
+}
+@media screen and (min-width: 600px) {
+  .p-brunch-menu__list {
+    width: 47%;
+    min-height: 68.1rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__list {
@@ -387,7 +396,13 @@ object {
 }
 .p-brunch-menu__list:nth-child(2) {
   background: url(../../../images/bg-eatin.jpg) no-repeat center center/cover;
-  margin-left: 6%;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 600px) {
+  .p-brunch-menu__list:nth-child(2) {
+    margin-top: 0;
+    margin-left: 6%;
+  }
 }
 .p-brunch-menu__link {
   display: block;
@@ -402,6 +417,7 @@ object {
   font-size: 4.1rem;
   line-height: 1.3;
   position: relative;
+  margin: 1.1rem 0 0 1.5rem;
 }
 @media screen and (min-width: 600px) {
   .p-brunch-menu__title {
@@ -417,13 +433,19 @@ object {
 }
 .p-brunch-menu__title::after {
   content: "";
-  width: 3.6rem;
+  width: 3.4rem;
   height: 0.4rem;
   display: inline-block;
   background-color: #ffffff;
   position: absolute;
-  bottom: -2.16rem;
+  bottom: -1.53rem;
   left: 0;
+}
+@media screen and (min-width: 600px) {
+  .p-brunch-menu__title::after {
+    width: 3.6rem;
+    bottom: -2.16rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__title::after {
@@ -432,10 +454,16 @@ object {
   }
 }
 .p-brunch-menu__text-box {
-  min-height: 13.8rem;
+  min-height: 12.4rem;
   margin: 0 1.5rem 1.5rem;
-  padding: 0.7rem 1.5rem 1.5rem;
+  padding: 0.7rem 1rem 1.5rem;
   background-color: rgba(255, 255, 255, 0.8);
+}
+@media screen and (min-width: 600px) {
+  .p-brunch-menu__text-box {
+    min-height: 13.8rem;
+    padding: 0.7rem 1.5rem 1.5rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__text-box {
@@ -445,8 +473,15 @@ object {
   }
 }
 .p-brunch-menu__sub-title {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
+  line-height: 1.1;
   margin-bottom: 0.3rem;
+}
+@media screen and (min-width: 600px) {
+  .p-brunch-menu__sub-title {
+    font-size: 2.4rem;
+    line-height: 1;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__sub-title {
@@ -455,8 +490,13 @@ object {
   }
 }
 .p-brunch-menu__text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.4;
+}
+@media screen and (min-width: 600px) {
+  .p-brunch-menu__text {
+    font-size: 1.4rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__text {
