@@ -11,7 +11,6 @@
   top: 0;
   right: 0;
   z-index: 20;
-  transform: translateX(100%);
   @include m.tablet {
     width: 44%;
   }
@@ -19,9 +18,5 @@
     position: static;
     width: 100%;
     padding-top: 5.1rem;
-  }
-
-  &.is-open {
-    transform: translateX(0);
   }
 }
