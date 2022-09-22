@@ -29,7 +29,7 @@
         </label>
       </form>
 
-      <!-- ハンバーガーボタン部分 -->
+      <!-- ハンバーガーボタン(Menu)部分 -->
       <button class="p-header__button c-text__font01 c-text-color__primary">
         Menu
       </button>
@@ -97,6 +97,11 @@
 
     <!-- nav -->
     <aside class="l-sidebar p-sidebar c-grid__sidebar c-text-color__primary">
+      <!-- ハンバーガーボタンの×印 -->
+      <button class="p-sidebar__button c-close">
+        <span class="c-close__line"></span>
+        <span class="c-close__line"></span>
+      </button>
       <h2 class="p-sidebar__title c-text__font01">Menu</h2>
       <nav class="p-nav">
         <dl class="c-nav__list">
@@ -128,7 +133,14 @@
           <dd class="c-nav__list-item c-text__font02"><a href="#">コーヒー（Ice/Hot）</a></dd>
         </dl>
       </nav>
+
+      <!-- サイドバー後ろの黒い透過部分 -->
+      <div class="p-overlay"></div>
     </aside>
   </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

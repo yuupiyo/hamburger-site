@@ -1,0 +1,27 @@
+@use "../foundation/mixin" as m;
+@use "../foundation/variable" as v;
+
+.l-sidebar {
+  width: 87.4%;
+  height: 100%;
+  background-color: v.$bgcolor-grey;
+  padding-top: 21.2rem;
+  padding-left: 4.6rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  transform: translateX(100%);
+  @include m.tablet {
+    width: 44%;
+  }
+  @include m.pc {
+    position: static;
+    width: 100%;
+    padding-top: 5.1rem;
+  }
+
+  &.is-open {
+    transform: translateX(0);
+  }
+}
