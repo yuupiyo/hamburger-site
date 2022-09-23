@@ -24,9 +24,27 @@
     }
   }
   &__sidebar {
+    width: 87.4%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 20;
+    // transition: all 0.3s;
+    @include m.tablet {
+      width: 44%;
+    }
     @include m.pc {
+      position: static;
+      width: 100%;
+      right: 0;
       grid-column: 2 / 3;
       grid-row: 1 / 3;
+    }
+    &.is-open {
+      right: 0;
+      transition: all 0.3s;
+      overflow: scroll;
     }
   }
 }
