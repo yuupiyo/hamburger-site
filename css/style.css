@@ -488,11 +488,6 @@ object {
 }
 .p-brunch-menu__link {
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 .p-brunch-menu__title {
   display: inline-block;
