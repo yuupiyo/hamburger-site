@@ -15,4 +15,11 @@
       background-image: url(../../../images/bg-front-main.jpg);
     }
   }
+
+  // archiveのページタイトル部分
+  &__archive {
+    @extend .c-background;
+    background-image: url(../../../images/bg-archive-main.png);
+    background-color: rgba(0, 0, 0);
+  }
 }

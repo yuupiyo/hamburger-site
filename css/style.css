@@ -72,7 +72,7 @@ object {
   }
 }
 
-.c-background, .c-background__main {
+.c-background, .c-background__archive, .c-background__main {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -84,6 +84,10 @@ object {
   .c-background__main {
     background-image: url(../../../images/bg-front-main.jpg);
   }
+}
+.c-background__archive {
+  background-image: url(../../../images/bg-archive-main.png);
+  background-color: rgb(0, 0, 0);
 }
 
 .c-border {
@@ -670,5 +674,25 @@ object {
   .p-access__layer {
     width: 61%;
   }
+}
+
+.p-page-title__archive {
+  width: 100%;
+  height: 15rem;
+  position: relative;
+}
+.p-page-title__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  position: absolute;
+  top: 5rem;
+  left: 5.4rem;
+}
+.p-page-title__main {
+  font-size: 3.7rem;
+}
+.p-page-title__sub {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
