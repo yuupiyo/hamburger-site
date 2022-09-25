@@ -97,6 +97,12 @@ object {
 .c-background-color__black {
   background-color: rgb(0, 0, 0);
 }
+.c-background-color__brown {
+  background-color: #3C2A10;
+}
+.c-background-color__white {
+  background-color: #ffffff;
+}
 
 .c-border {
   border: 0.1rem solid #707070;
