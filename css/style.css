@@ -194,6 +194,7 @@ object {
 }
 
 .c-inner {
+  width: 100%;
   padding: 3rem 2rem 0;
 }
 @media screen and (min-width: 600px) {
@@ -748,6 +749,45 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-page-title__sub {
+    font-size: 1rem;
+  }
+}
+
+.p-about {
+  padding-bottom: 1.9rem;
+}
+@media screen and (min-width: 600px) {
+  .p-about {
+    padding-bottom: 3.7rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-about {
+    padding-bottom: 4.4rem;
+  }
+}
+.p-about__title {
+  font-size: 2.8rem;
+  padding-bottom: 3rem;
+}
+@media screen and (min-width: 600px) {
+  .p-about__title {
+    font-size: 3.6rem;
+    padding-bottom: 2.5rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-about__title {
+    font-size: 2.3rem;
+    padding-bottom: 1.6rem;
+  }
+}
+.p-about__text {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+@media screen and (min-width: 1025px) {
+  .p-about__text {
     font-size: 1rem;
   }
 }
