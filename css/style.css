@@ -72,7 +72,7 @@ object {
   }
 }
 
-.c-background, .c-background__archive, .c-background__main {
+.c-background, .c-background__main {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -86,7 +86,15 @@ object {
   }
 }
 .c-background__archive {
-  background-image: url(../../../images/bg-archive-main.png);
+  background: url(../../../images/bg-archive-main-sp.png) no-repeat left center/cover;
+}
+@media screen and (min-width: 600px) {
+  .c-background__archive {
+    background: url(../../../images/bg-archive-main.png) no-repeat center center/cover;
+  }
+}
+
+.c-background-color__black {
   background-color: rgb(0, 0, 0);
 }
 
@@ -678,21 +686,55 @@ object {
 
 .p-page-title__archive {
   width: 100%;
-  height: 15rem;
+  height: 28.3rem;
   position: relative;
+}
+@media screen and (min-width: 1025px) {
+  .p-page-title__archive {
+    height: 15rem;
+  }
 }
 .p-page-title__wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1.3rem;
   position: absolute;
-  top: 5rem;
-  left: 5.4rem;
+  top: 10.2rem;
+  left: 3.7rem;
+}
+@media screen and (min-width: 600px) {
+  .p-page-title__wrapper {
+    flex-direction: row;
+    gap: 2rem;
+    left: 8.6rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-page-title__wrapper {
+    gap: 1.3rem;
+    top: 5rem;
+    left: 5.4rem;
+  }
 }
 .p-page-title__main {
-  font-size: 3.7rem;
+  font-size: 3.6rem;
+}
+@media screen and (min-width: 600px) {
+  .p-page-title__main {
+    font-size: 6rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-page-title__main {
+    font-size: 3.7rem;
+  }
 }
 .p-page-title__sub {
-  font-size: 1rem;
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-page-title__sub {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,21 +5,43 @@
   // archiveページ
   &__archive {
     width: 100%;
-    height: 15rem;
+    height: 28.3rem;
     position: relative;
+    @include m.pc {
+      height: 15rem;
+    }
   }
   &__wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 1.3rem;
     position: absolute;
-    top: 5rem;
-    left: 5.4rem;
+    top: 10.2rem;
+    left: 3.7rem;
+    @include m.tablet {
+      flex-direction: row;
+      gap: 2rem;
+      left: 8.6rem;
+    }
+    @include m.pc {
+      gap: 1.3rem;
+      top: 5rem;
+      left: 5.4rem;
+    }
   }
   &__main {
-    font-size: 3.7rem;
+    font-size: 3.6rem;
+    @include m.tablet {
+      font-size: 6rem;
+    }
+    @include m.pc {
+      font-size: 3.7rem;
+    }
   }
   &__sub {
-    font-size: 1rem;
+    font-size: 1.6rem;
+    @include m.pc {
+      font-size: 1rem;
+    }
   }
 }
