@@ -120,6 +120,34 @@ object {
   background: linear-gradient(0deg, #DED8D3, #F2EDE9);
 }
 
+.c-card__link {
+  display: flex;
+}
+.c-card__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.c-card__title {
+  font-size: 2.25rem;
+  margin-bottom: 2.9rem;
+}
+.c-card__sub-title {
+  font-size: 1.6rem;
+  margin-bottom: 1.1rem;
+}
+.c-card__text {
+  font-size: 1.1rem;
+  margin-bottom: 3.75rem;
+}
+.c-card__button {
+  width: 43%;
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1.7rem 6.6rem;
+  border-radius: 5rem;
+}
+
 .c-close {
   width: 3.2rem;
   height: 3.2rem;
@@ -796,5 +824,29 @@ object {
   .p-about__text {
     font-size: 1rem;
   }
+}
+
+.p-menu-list {
+  width: 100%;
+  margin-bottom: 1.9rem;
+}
+.p-menu-list:last-child {
+  margin-bottom: 0;
+}
+.p-menu-list__image {
+  width: 50%;
+}
+.p-menu-list__wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.p-menu-list__content {
+  width: 75%;
+  margin: 0 auto;
+}
+.p-menu-list__button {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

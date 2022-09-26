@@ -1,0 +1,30 @@
+@use "../../foundation/mixin" as m;
+@use "../../foundation/variable" as v;
+
+.p-menu-list {
+  width: 100%;
+  margin-bottom: 1.9rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__image {
+    width: 50%;
+  }
+
+  &__wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__content {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  &__button {
+    margin: 0 auto;
+  }
+}
