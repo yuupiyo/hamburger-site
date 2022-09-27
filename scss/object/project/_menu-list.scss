@@ -3,7 +3,10 @@
 
 .p-menu-list {
   width: 100%;
-  margin-bottom: 1.9rem;
+  margin-bottom: 2.05rem;
+  @include m.pc {
+    margin-bottom: 1.9rem;
+  }
   &:last-child {
     margin-bottom: 0;
   }
@@ -17,6 +20,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 3rem 0 4rem;
+    @include m.pc {
+      padding: 3.3rem 0 3.7rem;
+    }
   }
 
   &__content {
