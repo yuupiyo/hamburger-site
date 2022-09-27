@@ -3,9 +3,15 @@
 
 .c-border {
   border: 0.1rem solid v.$color-grey;
-  border-radius: 1rem;
   @include m.pc {
     border: 0.06rem solid v.$color-grey;
-    border-radius: 0.6rem;
   }
+  &__round {
+    border: 0.1rem solid v.$color-grey;
+    border-radius: 1rem;
+    @include m.pc {
+      border: 0.06rem solid v.$color-grey;
+      border-radius: 0.6rem;
+    }
+  } 
 }
