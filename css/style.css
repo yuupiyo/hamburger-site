@@ -122,6 +122,12 @@ object {
 
 .c-card__link {
   display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+  .c-card__link {
+    flex-direction: row;
+  }
 }
 .c-card__image {
   -o-object-fit: cover;
@@ -143,7 +149,12 @@ object {
 }
 .c-card__text {
   font-size: 1.6rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: 4rem;
+}
+@media screen and (min-width: 600px) {
+  .c-card__text {
+    margin-bottom: 4.5rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .c-card__text {
@@ -152,12 +163,17 @@ object {
   }
 }
 .c-card__button {
-  width: 43%;
+  width: 48.5%;
   display: block;
   font-size: 1.6rem;
   text-align: center;
   padding: 1rem 4.1rem;
   border-radius: 5rem;
+}
+@media screen and (min-width: 600px) {
+  .c-card__button {
+    width: 43%;
+  }
 }
 @media screen and (min-width: 1025px) {
   .c-card__button {
@@ -846,7 +862,12 @@ object {
 
 .p-menu-list {
   width: 100%;
-  margin-bottom: 2.05rem;
+  margin-bottom: 2.09rem;
+}
+@media screen and (min-width: 600px) {
+  .p-menu-list {
+    margin-bottom: 2.05rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-menu-list {
@@ -856,15 +877,22 @@ object {
 .p-menu-list:last-child {
   margin-bottom: 0;
 }
-.p-menu-list__image {
-  width: 50%;
+@media screen and (min-width: 600px) {
+  .p-menu-list__image {
+    width: 50%;
+  }
 }
 .p-menu-list__wrapper {
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem 0 4rem;
+  padding: 3.15rem 0 4.37rem;
+}
+@media screen and (min-width: 600px) {
+  .p-menu-list__wrapper {
+    width: 50%;
+    padding: 3rem 0 4rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-menu-list__wrapper {
@@ -872,8 +900,14 @@ object {
   }
 }
 .p-menu-list__content {
-  width: 75%;
-  margin: 0 auto;
+  width: 73%;
+  margin-left: 1.7rem;
+}
+@media screen and (min-width: 600px) {
+  .p-menu-list__content {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 .p-menu-list__button {
   margin: 0 auto;

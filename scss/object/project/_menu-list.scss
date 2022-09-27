@@ -3,7 +3,10 @@
 
 .p-menu-list {
   width: 100%;
-  margin-bottom: 2.05rem;
+  margin-bottom: 2.09rem;
+  @include m.tablet {
+    margin-bottom: 2.05rem;
+  }
   @include m.pc {
     margin-bottom: 1.9rem;
   }
@@ -12,23 +15,32 @@
   }
 
   &__image {
-    width: 50%;
+    @include m.tablet {
+      width: 50%;
+    }
   }
 
-  &__wrapper {
-    width: 50%;
+  &__wrapper { 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3rem 0 4rem;
+    padding: 3.15rem 0 4.37rem;
+    @include m.tablet {
+      width: 50%;
+      padding: 3rem 0 4rem;
+    }
     @include m.pc {
       padding: 3.3rem 0 3.7rem;
     }
   }
 
   &__content {
-    width: 75%;
-    margin: 0 auto;
+    width: 73%;
+    margin-left: 1.7rem;
+    @include m.tablet {
+      width: 75%;
+      margin: 0 auto;
+    }
   }
 
   &__button {
