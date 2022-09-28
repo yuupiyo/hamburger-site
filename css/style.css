@@ -302,7 +302,7 @@ object {
 }
 
 .c-pagination {
-  width: 44%;
+  width: 100%;
   padding-top: 9.2rem;
   padding-bottom: 4rem;
   margin: 0 auto;
