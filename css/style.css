@@ -919,9 +919,6 @@ object {
     margin-bottom: 1.9rem;
   }
 }
-.p-menu-list:nth-child(4) {
-  margin-bottom: 0;
-}
 @media screen and (min-width: 600px) {
   .p-menu-list__image {
     width: 50%;
