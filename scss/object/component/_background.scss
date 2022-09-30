@@ -16,12 +16,18 @@
     }
   }
 
-  // archiveのページタイトル部分
+  // archive,archive-searchページのタイトル部分
   &__archive {
     background: url(../../../images/bg-archive-main-sp.png) no-repeat left center / cover;
     @include m.tablet {
       background: url(../../../images/bg-archive-main.png) no-repeat center center / cover;
     }
+  }
+
+  // singleページのタイトル部分
+  &__single {
+    @extend .c-background;
+    background-image: url(../../../images/bg-single-main.jpg);
   }
 }
 

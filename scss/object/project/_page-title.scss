@@ -2,7 +2,7 @@
 @use "../../foundation/variable" as v;
 
 .p-page-title {
-  // archiveページ
+  // archiveページ,archive-searchページ
   &__archive {
     width: 100%;
     height: 28.3rem;
@@ -42,6 +42,37 @@
     font-size: 1.6rem;
     @include m.pc {
       font-size: 1rem;
+    }
+  }
+
+  // singleページ,pageページ
+  &__single {
+    width: 100%;
+    height: 22.5rem;
+    position: relative;
+    @include m.tablet {
+      height: 50rem;
+    }
+    @include m.pc {
+      height: 31.25rem;
+    }
+
+    // singleページ,pageページのmain-title部分
+    &--main {
+      font-size: 3.6rem;
+      position: absolute;
+      top: 9.1rem;
+      left: 2.6rem;
+      @include m.tablet {
+        font-size: 6rem;
+        top: 20.9rem;
+        left: 8.6rem;
+      }
+      @include m.pc {
+        font-size: 3.75rem;
+        top: 13rem;
+        left: 5.5rem;
+      }
     }
   }
 }
