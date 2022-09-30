@@ -33,13 +33,21 @@
     &:focus {
       outline: none;
     }
+    &::placeholder {
+      opacity: 0;
+      @include m.tablet {
+        opacity: 1;
+      }
+    }
     @include m.tablet {
       width: 39.6rem;
+      font-size: 1.6rem;
     }
     @include m.pc {
       width: 24.8rem; 
       height: 2.9rem; 
-      padding-left: 2.5rem;      
+      padding-left: 2.5rem;
+      font-size: 1rem;      
     }
   }
 
