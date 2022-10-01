@@ -54,7 +54,7 @@
       height: 50rem;
     }
     @include m.pc {
-      height: 31.25rem;
+      height: 33rem;
     }
 
     // singleページ,pageページのmain-title部分
@@ -70,7 +70,7 @@
       }
       @include m.pc {
         font-size: 3.75rem;
-        top: 13rem;
+        top: 15rem;
         left: 5.5rem;
       }
     }

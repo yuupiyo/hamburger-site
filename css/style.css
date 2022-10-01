@@ -996,7 +996,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-page-title__single {
-    height: 31.25rem;
+    height: 33rem;
   }
 }
 .p-page-title__single--main {
@@ -1015,7 +1015,7 @@ object {
 @media screen and (min-width: 1025px) {
   .p-page-title__single--main {
     font-size: 3.75rem;
-    top: 13rem;
+    top: 15rem;
     left: 5.5rem;
   }
 }
