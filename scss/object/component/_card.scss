@@ -16,10 +16,10 @@
   }
 
   &__title {
-    font-size: 2rem;
+    font-size: 2.8rem;
     margin-bottom: 2.4rem;
     @include m.pc {
-      font-size: 2.25rem;
+      font-size: 2.7rem;
       margin-bottom: 2.9rem;
     }
   }
@@ -27,6 +27,9 @@
   &__sub-title {
     font-size: 1.6rem;
     margin-bottom: 1rem;
+    @include m.pc {
+      font-size: 1.8rem;
+    }
   }
 
   &__text {
@@ -36,7 +39,7 @@
       margin-bottom: 4.5rem;
     }
     @include m.pc {
-      font-size: 1.1rem;
+      font-size: 1.25rem;
       margin-bottom: 3.75rem;
     }
   }
@@ -52,7 +55,7 @@
       width: 43%;
     }
     @include m.pc {
-      font-size: 1rem;
+      font-size: 1.2rem;
       padding: 1.7rem 0;
     }
   }

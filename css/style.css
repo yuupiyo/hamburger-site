@@ -146,18 +146,23 @@ object {
      object-fit: cover;
 }
 .c-card__title {
-  font-size: 2rem;
+  font-size: 2.8rem;
   margin-bottom: 2.4rem;
 }
 @media screen and (min-width: 1025px) {
   .c-card__title {
-    font-size: 2.25rem;
+    font-size: 2.7rem;
     margin-bottom: 2.9rem;
   }
 }
 .c-card__sub-title {
   font-size: 1.6rem;
   margin-bottom: 1rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-card__sub-title {
+    font-size: 1.8rem;
+  }
 }
 .c-card__text {
   font-size: 1.6rem;
@@ -170,7 +175,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .c-card__text {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     margin-bottom: 3.75rem;
   }
 }
@@ -189,7 +194,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .c-card__button {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1.7rem 0;
   }
 }
@@ -334,13 +339,13 @@ object {
   .c-pagination__count {
     display: block;
     font-size: 1.6rem;
-    margin-top: 0.3rem;
+    margin-top: 0.2rem;
     margin-right: 1.93rem;
   }
 }
 @media screen and (min-width: 1025px) {
   .c-pagination__count {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-right: 1.2rem;
   }
 }
@@ -428,10 +433,10 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .c-pagination__number {
-    width: 2.2rem;
-    height: 2.2rem;
-    font-size: 1rem;
-    line-height: 2.2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
     margin: 0.5rem;
   }
 }
@@ -968,7 +973,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-page-title__main {
-    font-size: 3.7rem;
+    font-size: 4rem;
   }
 }
 .p-page-title__sub {
@@ -976,7 +981,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-page-title__sub {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 .p-page-title__single {
@@ -1040,7 +1045,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-about__title {
-    font-size: 2.3rem;
+    font-size: 2.8rem;
     padding-bottom: 1.6rem;
   }
 }
@@ -1050,7 +1055,7 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .p-about__text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
