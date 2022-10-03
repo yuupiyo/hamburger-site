@@ -107,6 +107,9 @@ object {
 .c-background-color__white {
   background-color: #ffffff;
 }
+.c-background-color__gray {
+  background-color: #f5f5f5;
+}
 
 .c-border {
   border: 0.1rem solid #707070;
