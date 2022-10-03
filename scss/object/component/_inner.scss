@@ -15,6 +15,10 @@
   // single,pageページ
   &--single {
     width: 100%;
+    padding: 3rem 2rem 17.7rem;
+    @include m.tablet {
+      padding: 6rem 6rem 22.8rem;
+    }
     @include m.pc {
       padding: 3.8rem 7rem 22.1rem;
     }

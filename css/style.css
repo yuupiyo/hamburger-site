@@ -294,6 +294,12 @@ object {
 }
 .c-inner--single {
   width: 100%;
+  padding: 3rem 2rem 17.7rem;
+}
+@media screen and (min-width: 600px) {
+  .c-inner--single {
+    padding: 6rem 6rem 22.8rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .c-inner--single {
