@@ -203,7 +203,6 @@ object {
 }
 
 .c-cite-name {
-  font-size: 1.1rem;
   text-decoration: underline;
   color: #4A6C9B;
   margin-left: 1.1rem;
@@ -801,15 +800,30 @@ object {
 }
 
 .p-blockquote {
-  padding: 3.2rem 3.7rem 3.2rem 3.2rem;
+  padding: 5rem 5.6rem 6rem 5rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-blockquote {
+    padding: 3.2rem 3.7rem 3.2rem 3.2rem;
+  }
 }
 .p-blockquote__text {
-  font-size: 1.3rem;
-  line-height: 1.43;
-  margin-bottom: 3.7rem;
+  font-size: 1.6rem;
+  margin-bottom: 6rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-blockquote__text {
+    font-size: 1.3rem;
+    margin-bottom: 3.7rem;
+  }
 }
 .p-blockquote__cite {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-blockquote__cite {
+    font-size: 1.3rem;
+  }
 }
 
 .p-brunch-menu {

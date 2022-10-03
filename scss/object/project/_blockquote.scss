@@ -2,14 +2,23 @@
 @use "../../foundation/variable" as v;
 
 .p-blockquote {
-  padding: 3.2rem 3.7rem 3.2rem 3.2rem;
+  padding: 5rem 5.6rem 6rem 5rem;
+  @include m.pc {
+    padding: 3.2rem 3.7rem 3.2rem 3.2rem;
+  }
   &__text {
-    font-size: 1.3rem;
-    line-height: 1.43;
-    margin-bottom: 3.7rem;
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+    @include m.pc {
+      font-size: 1.3rem;
+      margin-bottom: 3.7rem;
+    }
   }
 
   &__cite {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    @include m.pc {
+      font-size: 1.3rem;
+    }
   }
 }
