@@ -1,2 +1,15 @@
 @use "../../foundation/mixin" as m;
 @use "../../foundation/variable" as v;
+
+.p-blockquote {
+  padding: 3.2rem 3.7rem 3.2rem 3.2rem;
+  &__text {
+    font-size: 1.3rem;
+    line-height: 1.43;
+    margin-bottom: 3.7rem;
+  }
+
+  &__cite {
+    font-size: 1.3rem;
+  }
+}

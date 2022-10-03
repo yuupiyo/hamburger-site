@@ -202,6 +202,13 @@ object {
   }
 }
 
+.c-cite-name {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  color: #4A6C9B;
+  margin-left: 1.1rem;
+}
+
 .c-close {
   width: 3.2rem;
   height: 3.2rem;
@@ -791,6 +798,18 @@ object {
     top: 14.4rem;
     left: 5.3rem;
   }
+}
+
+.p-blockquote {
+  padding: 3.2rem 3.7rem 3.2rem 3.2rem;
+}
+.p-blockquote__text {
+  font-size: 1.3rem;
+  line-height: 1.43;
+  margin-bottom: 3.7rem;
+}
+.p-blockquote__cite {
+  font-size: 1.3rem;
 }
 
 .p-brunch-menu {
