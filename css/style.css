@@ -292,6 +292,14 @@ object {
     padding: 3.8rem 6.3rem 0;
   }
 }
+.c-inner--single {
+  width: 100%;
+}
+@media screen and (min-width: 1025px) {
+  .c-inner--single {
+    padding: 3.8rem 6.3rem 22.1rem;
+  }
+}
 
 .c-overlay {
   visibility: hidden;
@@ -663,6 +671,37 @@ object {
     font-size: 0.1rem;
     margin-left: 0.8rem;
   }
+}
+
+.p-heading {
+  width: 100%;
+}
+.p-heading__h2 {
+  font-size: 3.6rem;
+  margin-bottom: 6rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-heading__h2 {
+    font-size: 2.6rem;
+    margin-bottom: 3.7rem;
+  }
+}
+.p-heading__text {
+  font-size: 1.2rem;
+  margin-bottom: 3.7rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-heading__text {
+    font-size: 1.6rem;
+  }
+}
+.p-heading__h3 {
+  font-size: 1.9rem;
+  margin-bottom: 3.7rem;
+}
+.p-heading__h4, .p-heading__h5, .p-heading__h6 {
+  font-size: 1.4rem;
+  margin-bottom: 3.7rem;
 }
 
 .p-mainvisual {
