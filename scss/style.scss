@@ -26,6 +26,7 @@
 @use "./object/component/cite";
 @use "./object/component/close";
 @use "./object/component/grid";
+@use "./object/component/image";
 @use "./object/component/inner";
 @use "./object/component/overlay";
 @use "./object/component/pagination";
@@ -43,6 +44,7 @@
 @use "./object/project/mainvisual";
 @use "./object/project/blockquote";
 @use "./object/project/brunch-menu";
+@use "./object/project/burger";
 @use "./object/project/access";
 @use "./object/project/page-title";
 @use "./object/project/about";
