@@ -2,6 +2,22 @@
 @use "../../foundation/variable" as v;
 
 .c-image {
-  width: 100%;
-  object-fit: cover;
+  // single.pageページの1番大きなハンバーガー画像
+  &__big {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  // single,pageページ部分のテキスト付きのハンバーガー画像
+  &__description {
+    width: 43%;
+    object-fit: cover;
+    height: 8.9rem;
+    @include m.tablet {
+      height: 18.9rem;
+    }
+    @include m.pc {
+      height: auto;
+    }
+  }
 }

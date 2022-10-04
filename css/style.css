@@ -287,10 +287,26 @@ object {
   transition: all 0.6s;
 }
 
-.c-image {
+.c-image__big {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.c-image__description {
+  width: 43%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 8.9rem;
+}
+@media screen and (min-width: 600px) {
+  .c-image__description {
+    height: 18.9rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-image__description {
+    height: auto;
+  }
 }
 
 .c-inner {
@@ -994,6 +1010,55 @@ object {
 @media screen and (min-width: 1025px) {
   .p-burger-big {
     margin: 4.2rem 0;
+  }
+}
+
+.p-burger-description__first, .p-burger-description__second {
+  display: flex;
+  justify-content: space-between;
+}
+.p-burger-description__first {
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 600px) {
+  .p-burger-description__first {
+    margin-bottom: 11.7rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-burger-description__first {
+    margin-bottom: 4.4rem;
+  }
+}
+.p-burger-description__second {
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 600px) {
+  .p-burger-description__second {
+    margin-bottom: 6.1rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-burger-description__second {
+    margin-bottom: 4.4rem;
+  }
+}
+.p-burger-description__text {
+  width: 54%;
+  font-size: 1.6rem;
+  line-height: 1.43;
+}
+@media screen and (min-width: 1025px) {
+  .p-burger-description__text {
+    font-size: 1.23rem;
+  }
+}
+.p-burger-description__text::first-letter {
+  margin-left: 1rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-burger-description__text::first-letter {
+    margin-left: 0.5rem;
   }
 }
 
