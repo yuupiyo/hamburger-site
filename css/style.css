@@ -340,6 +340,23 @@ object {
     height: auto;
   }
 }
+.c-image__panel {
+  width: 100%;
+  height: 20.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 600px) {
+  .c-image__panel {
+    width: 48%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-image__panel {
+    width: 32.3%;
+    height: 19rem;
+  }
+}
 
 .c-inner {
   width: 100%;
@@ -1076,6 +1093,25 @@ object {
 @media screen and (min-width: 1025px) {
   .p-burger-description__text::first-letter {
     margin-left: 0.5rem;
+  }
+}
+
+.p-burger-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+@media screen and (min-width: 600px) {
+  .p-burger-panel {
+    gap: 2rem 1.6rem;
+    margin-top: 24.1rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-burger-panel {
+    gap: 1.4rem;
+    margin-top: 4.2rem;
   }
 }
 

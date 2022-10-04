@@ -44,3 +44,19 @@
     }
   }
 }
+
+// パネル状のハンバーガー画像
+.p-burger-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+  @include m.tablet {
+    gap: 2rem 1.6rem;
+    margin-top: 24.1rem;
+  }
+  @include m.pc {
+    gap: 1.4rem;
+    margin-top: 4.2rem;
+  }
+}
