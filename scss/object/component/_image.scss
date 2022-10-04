@@ -4,6 +4,7 @@
 .c-image {
   // single.pageページの1番大きなハンバーガー画像
   &__big {
+    display: block;
     width: 100%;
     object-fit: cover;
     margin: 3rem 0;
@@ -24,6 +25,23 @@
       height: 18.9rem;
     }
     @include m.pc {
+      height: auto;
+    }
+  }
+
+  // single.pageページの真ん中のハンバーガー画像
+  &__medium {
+    display: block;
+    width: 79.7%;
+    height: 16.6rem;
+    object-fit: cover;
+    margin: 0 auto;
+    @include m.tablet {
+      width: 81%;
+      height: 35.8rem;
+    }
+    @include m.pc {
+      width: 43%;
       height: auto;
     }
   }

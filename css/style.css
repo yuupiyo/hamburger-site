@@ -288,6 +288,7 @@ object {
 }
 
 .c-image__big {
+  display: block;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -316,6 +317,26 @@ object {
 }
 @media screen and (min-width: 1025px) {
   .c-image__description {
+    height: auto;
+  }
+}
+.c-image__medium {
+  display: block;
+  width: 79.7%;
+  height: 16.6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+}
+@media screen and (min-width: 600px) {
+  .c-image__medium {
+    width: 81%;
+    height: 35.8rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-image__medium {
+    width: 43%;
     height: auto;
   }
 }
