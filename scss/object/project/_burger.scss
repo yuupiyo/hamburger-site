@@ -1,18 +1,6 @@
 @use "../../foundation/mixin" as m;
 @use "../../foundation/variable" as v;
 
-// 1番大きなハンバーガー画像
-.p-burger-big {
-  width: 100%;
-  margin: 3rem 0;
-  @include m.tablet {
-    margin: 6rem 0;
-  }
-  @include m.pc {
-    margin: 4.2rem 0;
-  }
-}
-
 // ハンバーガー画像とテキスト部分
 .p-burger-description {
   &__first,

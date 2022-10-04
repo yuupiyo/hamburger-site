@@ -291,6 +291,17 @@ object {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 3rem 0;
+}
+@media screen and (min-width: 600px) {
+  .c-image__big {
+    margin: 6rem 0;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .c-image__big {
+    margin: 4.2rem 0;
+  }
 }
 .c-image__description {
   width: 43%;
@@ -995,21 +1006,6 @@ object {
 @media screen and (min-width: 1025px) {
   .p-brunch-menu__text {
     font-size: 1rem;
-  }
-}
-
-.p-burger-big {
-  width: 100%;
-  margin: 3rem 0;
-}
-@media screen and (min-width: 600px) {
-  .p-burger-big {
-    margin: 6rem 0;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .p-burger-big {
-    margin: 4.2rem 0;
   }
 }
 
