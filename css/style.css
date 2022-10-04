@@ -982,19 +982,17 @@ object {
   }
 }
 
-.p-burger {
+.p-burger-big {
   width: 100%;
-}
-.p-burger__big {
   margin: 3rem 0;
 }
 @media screen and (min-width: 600px) {
-  .p-burger__big {
+  .p-burger-big {
     margin: 6rem 0;
   }
 }
 @media screen and (min-width: 1025px) {
-  .p-burger__big {
+  .p-burger-big {
     margin: 4.2rem 0;
   }
 }
