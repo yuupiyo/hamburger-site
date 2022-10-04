@@ -1,2 +1,15 @@
 @use "../../foundation/mixin" as m;
 @use "../../foundation/variable" as v;
+
+.p-burger {
+  width: 100%;
+  &__big {
+    margin: 3rem 0;
+    @include m.tablet {
+      margin: 6rem 0;
+    }
+    @include m.pc {
+      margin: 4.2rem 0;
+    }
+  }
+}

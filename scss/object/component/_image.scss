@@ -1,2 +1,7 @@
 @use "../../foundation/mixin" as m;
 @use "../../foundation/variable" as v;
+
+.c-image {
+  width: 100%;
+  object-fit: cover;
+}
