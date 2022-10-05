@@ -388,10 +388,20 @@ object {
 }
 
 .c-list-item {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-list-item {
+    font-size: 1.2rem;
+  }
 }
 .c-list-item__first, .c-list-item__second {
-  margin-bottom: 1.25rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-list-item__first, .c-list-item__second {
+    margin-bottom: 1.25rem;
+  }
 }
 .c-list-item__second {
   margin-left: 1.4rem;
@@ -851,14 +861,24 @@ object {
 }
 
 .p-list__order {
-  padding: 4.2rem 0 4.2rem 5rem;
+  padding: 6rem 0 6rem 6.5rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-list__order {
+    padding: 4.2rem 0 4.2rem 5rem;
+  }
 }
 .p-list__order ol {
   list-style: decimal;
 }
 
 .p-list__random {
-  padding: 0 0 3.7rem 3.75rem;
+  padding: 0 0 6rem 5rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-list__random {
+    padding: 0 0 3.7rem 3.75rem;
+  }
 }
 
 .p-mainvisual {
