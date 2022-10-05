@@ -404,7 +404,7 @@ object {
   }
 }
 .c-list-item__second {
-  margin-left: 1.4rem;
+  margin-left: 1.8rem;
 }
 
 .c-overlay {
@@ -861,7 +861,12 @@ object {
 }
 
 .p-list__order {
-  padding: 6rem 0 6rem 6.5rem;
+  padding: 3rem 0 6rem 2rem;
+}
+@media screen and (min-width: 600px) {
+  .p-list__order {
+    padding: 6rem 0 6rem 6.5rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-list__order {
@@ -873,7 +878,12 @@ object {
 }
 
 .p-list__random {
-  padding: 0 0 6rem 5rem;
+  padding: 0 0 3rem 0;
+}
+@media screen and (min-width: 600px) {
+  .p-list__random {
+    padding: 0 0 6rem 5rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-list__random {
