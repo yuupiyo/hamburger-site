@@ -3,9 +3,7 @@
 
 // 序列リスト部分
 .p-list__order {
-  padding-top: 4.2rem;
-  padding-left: 5rem;
-  padding-bottom: 4.2rem;
+  padding: 4.2rem 0 4.2rem 5rem;
   & ol {
     list-style: decimal;
   }
@@ -13,6 +11,5 @@
 
 // 順不同リスト部分
 .p-list__random {
-  padding-left: 3.7rem;
-  padding-bottom: 3.75rem;
+  padding: 0 0 3.7rem 3.75rem;
 }
