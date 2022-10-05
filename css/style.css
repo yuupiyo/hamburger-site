@@ -1463,7 +1463,12 @@ object {
 .p-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 6rem;
+  margin-top: 3.1rem;
+}
+@media screen and (min-width: 600px) {
+  .p-table {
+    margin-top: 6rem;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-table {
@@ -1481,7 +1486,12 @@ object {
   }
 }
 .p-table__th--first {
-  width: 30.1%;
+  width: 40.2%;
+}
+@media screen and (min-width: 600px) {
+  .p-table__th--first {
+    width: 30.1%;
+  }
 }
 @media screen and (min-width: 1025px) {
   .p-table__th--first {
