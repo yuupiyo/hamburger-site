@@ -387,6 +387,16 @@ object {
   }
 }
 
+.c-list-item {
+  font-size: 1.2rem;
+}
+.c-list-item__first, .c-list-item__second {
+  margin-bottom: 1.25rem;
+}
+.c-list-item__second {
+  margin-left: 1.4rem;
+}
+
 .c-overlay {
   visibility: hidden;
   position: fixed;
@@ -838,6 +848,20 @@ object {
     font-size: 1.4rem;
     margin-bottom: 3.7rem;
   }
+}
+
+.p-list__order {
+  padding-top: 4.2rem;
+  padding-left: 5rem;
+  padding-bottom: 4.2rem;
+}
+.p-list__order ol {
+  list-style: decimal;
+}
+
+.p-list__random {
+  padding-left: 3.7rem;
+  padding-bottom: 3.75rem;
 }
 
 .p-mainvisual {
