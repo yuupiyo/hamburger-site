@@ -7,13 +7,21 @@
 
   // 大きなボタン部分
   &__big {
+    text-align: center;
+    width: 100%;
     font-size: 1.6rem;
-    margin-top: 6rem;
-    padding: 4.1rem 19rem;
+    margin-top: 3rem;
+    padding: 2.9rem 0;
+    @include m.tablet {
+      width: 60.1%;
+      margin-top: 6rem;
+      padding: 4.1rem 0;
+    }
     @include m.pc {
+      width: 31.7%;
       font-size: 1.2rem;
       margin-top: 4.5rem;
-      padding: 3rem 14.5rem;
+      padding: 3rem 0;
     }
   }
 }
