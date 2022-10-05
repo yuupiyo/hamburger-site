@@ -229,8 +229,13 @@ object {
 
 .c-code {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   line-height: 1.43;
+}
+@media screen and (min-width: 1025px) {
+  .c-code {
+    font-size: 1.2rem;
+  }
 }
 
 .c-grid {
@@ -1354,7 +1359,12 @@ object {
 
 .p-preformatted {
   width: 100%;
-  height: 19rem;
+  height: 23.7rem;
+}
+@media screen and (min-width: 1025px) {
+  .p-preformatted {
+    height: 19rem;
+  }
 }
 
 .p-about {
