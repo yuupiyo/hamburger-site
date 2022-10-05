@@ -23,7 +23,11 @@
 
   // 大きなボタンの枠線
   &__big {
-    border: 0.098rem solid v.$color-grey;
-    border-radius: 1.5rem;
+    border: 0.1rem solid v.$color-grey;
+    border-radius: 2rem;
+    @include m.pc {
+      border: 0.098rem solid v.$color-grey;
+      border-radius: 1.5rem;
+    }
   }
 }

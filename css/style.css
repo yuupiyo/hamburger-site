@@ -133,8 +133,14 @@ object {
   border: 0.09rem solid #707070;
 }
 .c-border__big {
-  border: 0.098rem solid #707070;
-  border-radius: 1.5rem;
+  border: 0.1rem solid #707070;
+  border-radius: 2rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-border__big {
+    border: 0.098rem solid #707070;
+    border-radius: 1.5rem;
+  }
 }
 
 .c-button {
@@ -142,9 +148,16 @@ object {
   background: linear-gradient(0deg, #DED8D3, #F2EDE9);
 }
 .c-button__big {
-  font-size: 1.2rem;
-  margin-top: 4.5rem;
-  padding: 3rem 14.5rem;
+  font-size: 1.6rem;
+  margin-top: 6rem;
+  padding: 4.1rem 19rem;
+}
+@media screen and (min-width: 1025px) {
+  .c-button__big {
+    font-size: 1.2rem;
+    margin-top: 4.5rem;
+    padding: 3rem 14.5rem;
+  }
 }
 
 .c-card__link {
