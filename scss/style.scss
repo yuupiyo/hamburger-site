@@ -28,6 +28,7 @@
 @use "./object/component/grid";
 @use "./object/component/image";
 @use "./object/component/inner";
+@use "./object/component/list-item";
 @use "./object/component/overlay";
 @use "./object/component/pagination";
 @use "./object/component/text";
@@ -41,6 +42,7 @@
 @use "./object/project/footer";
 @use "./object/project/search";
 @use "./object/project/heading";
+@use "./object/project/list";
 @use "./object/project/mainvisual";
 @use "./object/project/blockquote";
 @use "./object/project/brunch-menu";
