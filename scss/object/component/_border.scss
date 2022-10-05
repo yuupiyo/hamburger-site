@@ -6,6 +6,7 @@
   @include m.pc {
     border: 0.06rem solid v.$color-grey;
   }
+
   &__round {
     border: 0.1rem solid v.$color-grey;
     border-radius: 1rem;
@@ -14,4 +15,8 @@
       border-radius: 0.6rem;
     }
   } 
+
+  &__table {
+    border: 0.09rem solid v.$color-grey;
+  }
 }
