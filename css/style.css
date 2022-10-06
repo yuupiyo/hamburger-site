@@ -1530,4 +1530,20 @@ object {
     width: 31.7%;
   }
 }
+
+.p-text-bold {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+@media screen and (min-width: 600px) {
+  .p-text-bold {
+    margin-top: 6rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .p-text-bold {
+    font-size: 1.2rem;
+    margin-top: 3.75rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
